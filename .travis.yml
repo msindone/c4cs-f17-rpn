@@ -3,3 +3,11 @@ python:
 - "3.5"
 script:
   - pytest test_rpn.py
+install:
+  - pip install codecov
+
+script:
+  - coverage run tests.py
+
+after_success:
+  - codecov
