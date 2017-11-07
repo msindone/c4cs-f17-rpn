@@ -2,5 +2,5 @@ language: python
 python:
 - "3.5"
 script:
-rpn.py
-test_rpn.py
+  - py rpn.py
+  - py test_rpn.py
