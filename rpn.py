@@ -32,10 +32,10 @@ def main():
     while True:
         funct = input("rpn calc> ")
         result = calculate(funct)
-        color = bg('indian_red_la') + fg('white')
+        color = bg('red') + fg('white')
         reset = attr('reset')
         print(color + funct + reset)
-        print("Result: ", result)
+        print "Result: " + str(result)
 
 if __name__ == '__main__':
     main()
