@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python
 import readline
 import operator
 from colored import fg,bg,attr
