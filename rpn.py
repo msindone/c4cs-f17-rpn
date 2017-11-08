@@ -35,8 +35,8 @@ def main():
         color = bg('red') + fg('white')
         reset = attr('reset')
         print(color + funct + reset)
-        print "Result: "
-        print result
+        print("Result: ")
+        print(result)
 
 if __name__ == '__main__':
     main()
