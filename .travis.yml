@@ -5,6 +5,7 @@ script:
   - pytest test_rpn.py
 install:
   - pip install codecov
+  - pip install colored --upgrade
 
 script:
   - coverage run test_rpn.py
